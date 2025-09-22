@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MY_Bharat_App_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">MY_Bharat_App Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MY_Bharat_App_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MY_Bharat_App_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MY_Bharat_App_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MY_Bharat_App_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MY_Bharat_App_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MY_Bharat_App_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MY_Bharat_App_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MY_Bharat_App_Test_Suite" class="hide-methods failed suite-MY_Bharat_App_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-MY_Bharat_App_Test_Suite -->
+                      <a href="#" panel-name="suite-MY_Bharat_App_Test_Suite" class="show-methods failed suite-MY_Bharat_App_Test_Suite"> (show)</a> <!-- show-methods failed suite-MY_Bharat_App_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-MY_Bharat_App_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MY_Bharat_App_Test_Suite" title="mybharat.tests.SampleTest" class="method navigator-link" hash-for-method="testExampleButton">testExampleButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MY_Bharat_App_Test_Suite" title="mybharat.tests.HomePageTest" class="method navigator-link" hash-for-method="testExampleButtonClick">testExampleButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MY_Bharat_App_Test_Suite" title="mybharat.tests.SampleTest" class="method navigator-link" hash-for-method="testFailureScreenshot">testFailureScreenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MY_Bharat_App_Test_Suite" title="mybharat.tests.HomePageTest" class="method navigator-link" hash-for-method="testLongPressExampleButton">testLongPressExampleButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MY_Bharat_App_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MY_Bharat_App_Test_Suite" class="panel MY_Bharat_App_Test_Suite">
+          <div class="suite-MY_Bharat_App_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mybharat.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExampleButtonClick">
+                  </a> <!-- testExampleButtonClick -->
+                  <span class="method-name">testExampleButtonClick</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.HomePage.clickExampleButton(HomePage.java:25)
+	at mybharat.tests.HomePageTest.testExampleButtonClick(HomePageTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify example button click on Home Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLongPressExampleButton">
+                  </a> <!-- testLongPressExampleButton -->
+                  <span class="method-name">testLongPressExampleButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.HomePage.longPressExampleButton(HomePage.java:30)
+	at mybharat.tests.HomePageTest.testLongPressExampleButton(HomePageTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify long press on example button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MY_Bharat_App_Test_Suite-class-failed -->
+          <div class="suite-MY_Bharat_App_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mybharat.tests.SampleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExampleButton">
+                  </a> <!-- testExampleButton -->
+                  <span class="method-name">testExampleButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.SamplePage.clickExampleButton(SamplePage.java:18)
+	at mybharat.tests.SampleTest.testExampleButton(SampleTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sample test to demonstrate framework usage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailureScreenshot">
+                  </a> <!-- testFailureScreenshot -->
+                  <span class="method-name">testFailureScreenshot</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.SamplePage.longPressExampleButton(SamplePage.java:23)
+	at mybharat.tests.SampleTest.testFailureScreenshot(SampleTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sample test to demonstrate screenshot on failure)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MY_Bharat_App_Test_Suite-class-failed -->
+        </div> <!-- panel MY_Bharat_App_Test_Suite -->
+        <div panel-name="test-xml-MY_Bharat_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/nisha/eclipse-workspace/MY_Bharat_App/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MY_Bharat_App Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Test Classes&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mybharat.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;mybharat.tests.SampleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Test Classes --&gt;
+&lt;/suite&gt; &lt;!-- MY_Bharat_App Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MY_Bharat_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MY_Bharat_App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Test Classes (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MY_Bharat_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MY_Bharat_App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MY_Bharat_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MY_Bharat_App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MY_Bharat_App_Test_Suite');
+function tableData_MY_Bharat_App_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testExampleButtonClick')
+data.setCell(0, 2, 'mybharat.tests.HomePageTest')
+data.setCell(0, 3, 10068);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLongPressExampleButton')
+data.setCell(1, 2, 'mybharat.tests.HomePageTest')
+data.setCell(1, 3, 10052);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testFailureScreenshot')
+data.setCell(2, 2, 'mybharat.tests.SampleTest')
+data.setCell(2, 3, 10041);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testExampleButton')
+data.setCell(3, 2, 'mybharat.tests.SampleTest')
+data.setCell(3, 3, 10026);
+window.suiteTableData['MY_Bharat_App_Test_Suite']= { tableData: data, tableDiv: 'times-div-MY_Bharat_App_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-MY_Bharat_App_Test_Suite">
+              </div> <!-- times-div-MY_Bharat_App_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MY_Bharat_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MY_Bharat_App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MY_Bharat_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MY_Bharat_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mybharat.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testExampleButtonClick</span>
+                <span class="method-start">3274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureFailure([TestResult name=testExampleButtonClick status=FAILURE method=HomePageTest.testExampleButtonClick()[...)</span>
+                <span class="method-start">13380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLongPressExampleButton</span>
+                <span class="method-start">13692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureFailure([TestResult name=testLongPressExampleButton status=FAILURE method=HomePageTest.testLongPressExampleB...)</span>
+                <span class="method-start">23753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24131 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mybharat.tests.SampleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27879 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testExampleButton</span>
+                <span class="method-start">29592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureFailure([TestResult name=testExampleButton status=FAILURE method=SampleTest.testExampleButton()[pri:0, insta...)</span>
+                <span class="method-start">39622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFailureScreenshot</span>
+                <span class="method-start">39872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureFailure([TestResult name=testFailureScreenshot status=FAILURE method=SampleTest.testFailureScreenshot()[pri:...)</span>
+                <span class="method-start">49917 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50146 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

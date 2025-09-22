@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">MY_Bharat_App Test Suite</th></tr>
+<tr><td><a href="#t0">All Test Classes</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">54,358</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MY_Bharat_App Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Test Classes &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">mybharat.tests.HomePageTest</td><td><a href="#m0">testExampleButtonClick</a></td><td rowspan="1">1758364479159</td><td rowspan="1">10068</td></tr><tr class="failedeven"><td><a href="#m1">testLongPressExampleButton</a></td><td rowspan="1">1758364489577</td><td rowspan="1">10052</td></tr><tr class="failedodd"><td rowspan="2">mybharat.tests.SampleTest</td><td><a href="#m2">testExampleButton</a></td><td rowspan="1">1758364505477</td><td rowspan="1">10026</td></tr><tr class="failedodd"><td><a href="#m3">testFailureScreenshot</a></td><td rowspan="1">1758364515757</td><td rowspan="1">10041</td></tr></tbody>
+</table>
+<h2>All Test Classes</h2><h3 id="m0">mybharat.tests.HomePageTest#testExampleButtonClick</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.HomePage.clickExampleButton(HomePage.java:25)
+	at mybharat.tests.HomePageTest.testExampleButtonClick(HomePageTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">mybharat.tests.HomePageTest#testLongPressExampleButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.HomePage.longPressExampleButton(HomePage.java:30)
+	at mybharat.tests.HomePageTest.testLongPressExampleButton(HomePageTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">mybharat.tests.SampleTest#testExampleButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.SamplePage.clickExampleButton(SamplePage.java:18)
+	at mybharat.tests.SampleTest.testExampleButton(SampleTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">mybharat.tests.SampleTest#testFailureScreenshot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at mybharat.pages.SamplePage.longPressExampleButton(SamplePage.java:23)
+	at mybharat.tests.SampleTest.testFailureScreenshot(SampleTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

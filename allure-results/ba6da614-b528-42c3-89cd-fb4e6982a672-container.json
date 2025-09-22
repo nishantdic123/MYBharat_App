@@ -1,0 +1,1 @@
+{"uuid":"ba6da614-b528-42c3-89cd-fb4e6982a672","name":"mybharat.BaseTest.setUp","children":["589d4435-2ce0-4a96-aa91-651eba3844f8"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1758372111768,"stop":1758372114274}],"afters":[],"start":1758372111768,"stop":1758372114274}

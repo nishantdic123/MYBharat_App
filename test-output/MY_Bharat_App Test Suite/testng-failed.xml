@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MY_Bharat_App Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Test Classes(failed)">
+    <classes>
+      <class name="mybharat.tests.SplashScreenTest">
+        <methods>
+          <include name="globalSetUp"/>
+          <include name="testSplashScreenFlow"/>
+          <include name="ensureDriverInitialized"/>
+        </methods>
+      </class> <!-- mybharat.tests.SplashScreenTest -->
+      <class name="mybharat.tests.HomePageTest">
+        <methods>
+          <include name="globalSetUp"/>
+          <include name="ensureDriverInitialized"/>
+          <include name="homePage_experientialLearningListing"/>
+        </methods>
+      </class> <!-- mybharat.tests.HomePageTest -->
+    </classes>
+  </test> <!-- All Test Classes(failed) -->
+</suite> <!-- Failed suite [MY_Bharat_App Test Suite] -->

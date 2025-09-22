@@ -1,0 +1,1 @@
+{"uuid":"f8e53c7b-d6b6-4eaf-b604-61f3e8e6c1d3","name":"MY_Bharat_App Test Suite","children":["297a1311-64fa-4024-8490-e7ebafd8c9c4"],"befores":[{"name":"globalSetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1758378689878,"stop":1758378698598}],"afters":[],"start":1758378689869,"stop":1758378717943}

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-20T16:04:35 IST" name="MY_Bharat_App Test Suite" finished-at="2025-09-20T16:05:30 IST" duration-ms="54358">
+    <groups>
+    </groups>
+    <test started-at="2025-09-20T16:04:35 IST" name="All Test Classes" finished-at="2025-09-20T16:05:30 IST" duration-ms="54358">
+      <class name="mybharat.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mybharat.tests.HomePageTest@2a693f59]" started-at="2025-09-20T16:04:35 IST" name="setUp" finished-at="2025-09-20T16:04:39 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testExampleButtonClick()[pri:0, instance:mybharat.tests.HomePageTest@2a693f59]" started-at="2025-09-20T16:04:39 IST" name="testExampleButtonClick" description="Verify example button click on Home Page" finished-at="2025-09-20T16:04:49 IST" duration-ms="10068" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at mybharat.pages.HomePage.clickExampleButton(HomePage.java:25)
+at mybharat.tests.HomePageTest.testExampleButtonClick(HomePageTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExampleButtonClick -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:mybharat.tests.HomePageTest@2a693f59]" started-at="2025-09-20T16:04:49 IST" name="captureFailure" finished-at="2025-09-20T16:04:49 IST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExampleButtonClick status=FAILURE method=HomePageTest.testExampleButtonClick()[pri:0, instance:mybharat.tests.HomePageTest@2a693f59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method signature="testLongPressExampleButton()[pri:0, instance:mybharat.tests.HomePageTest@2a693f59]" started-at="2025-09-20T16:04:49 IST" name="testLongPressExampleButton" description="Verify long press on example button" finished-at="2025-09-20T16:04:59 IST" duration-ms="10052" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b23732e1-bb76-4d3c-a4d2-d3c86ea088df, findElement {using=id, value=com.gov.mybharat:id/example_button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b23732e1-bb76-4d3c-a4d2-d3c86ea088df
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at mybharat.pages.HomePage.longPressExampleButton(HomePage.java:30)
+at mybharat.tests.HomePageTest.testLongPressExampleButton(HomePageTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLongPressExampleButton -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:mybharat.tests.HomePageTest@2a693f59]" started-at="2025-09-20T16:04:59 IST" name="captureFailure" finished-at="2025-09-20T16:05:00 IST" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLongPressExampleButton status=FAILURE method=HomePageTest.testLongPressExampleButton()[pri:0, instance:mybharat.tests.HomePageTest@2a693f59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mybharat.tests.HomePageTest@2a693f59]" started-at="2025-09-20T16:05:00 IST" name="tearDown" finished-at="2025-09-20T16:05:03 IST" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mybharat.tests.HomePageTest -->
+      <class name="mybharat.tests.SampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mybharat.tests.SampleTest@25be7b63]" started-at="2025-09-20T16:05:03 IST" name="setUp" finished-at="2025-09-20T16:05:05 IST" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testExampleButton()[pri:0, instance:mybharat.tests.SampleTest@25be7b63]" started-at="2025-09-20T16:05:05 IST" name="testExampleButton" description="Sample test to demonstrate framework usage" finished-at="2025-09-20T16:05:15 IST" duration-ms="10026" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at mybharat.pages.SamplePage.clickExampleButton(SamplePage.java:18)
+at mybharat.tests.SampleTest.testExampleButton(SampleTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExampleButton -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:mybharat.tests.SampleTest@25be7b63]" started-at="2025-09-20T16:05:15 IST" name="captureFailure" finished-at="2025-09-20T16:05:15 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExampleButton status=FAILURE method=SampleTest.testExampleButton()[pri:0, instance:mybharat.tests.SampleTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method signature="testFailureScreenshot()[pri:0, instance:mybharat.tests.SampleTest@25be7b63]" started-at="2025-09-20T16:05:15 IST" name="testFailureScreenshot" description="Sample test to demonstrate screenshot on failure" finished-at="2025-09-20T16:05:25 IST" duration-ms="10041" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [aca76f06-abcf-4423-b985-56f37c46c1da, findElement {using=id, value=com.example:id/button}]
+Capabilities {appium:adbExecTimeout: 120000, appium:app: /Users/nisha/eclipse-worksp..., appium:appActivity: com.gov.mybharat.MainActivity, appium:appPackage: com.gov.mybharat, appium:automationName: UiAutomator2, appium:chromedriverExecutable: /opt/homebrew/bin/chromedriver, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, app: /Users/nisha/eclipse-worksp..., appActivity: com.gov.mybharat.MainActivity, appPackage: com.gov.mybharat, automationName: UiAutomator2, chromedriverExecutable: /opt/homebrew/bin/chromedriver, deviceName: emulator-5554, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 15, appium:statBarHeight: 144, appium:takesScreenshot: true, appium:viewportRect: {height: 2976, left: 0, top: 144, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: aca76f06-abcf-4423-b985-56f37c46c1da
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at mybharat.pages.SamplePage.longPressExampleButton(SamplePage.java:23)
+at mybharat.tests.SampleTest.testFailureScreenshot(SampleTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailureScreenshot -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:mybharat.tests.SampleTest@25be7b63]" started-at="2025-09-20T16:05:25 IST" name="captureFailure" finished-at="2025-09-20T16:05:26 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFailureScreenshot status=FAILURE method=SampleTest.testFailureScreenshot()[pri:0, instance:mybharat.tests.SampleTest@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mybharat.tests.SampleTest@25be7b63]" started-at="2025-09-20T16:05:26 IST" name="tearDown" finished-at="2025-09-20T16:05:30 IST" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mybharat.tests.SampleTest -->
+    </test> <!-- All Test Classes -->
+  </suite> <!-- MY_Bharat_App Test Suite -->
+</testng-results>
